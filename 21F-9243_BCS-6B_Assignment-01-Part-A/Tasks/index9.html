@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task_9</title>
+    <style>
+      h1,
+      h2,
+      h3,
+      p {
+        text-align: center;
+      }
+      .center {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: end;
+      }
+      .options {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .time,
+      .btn {
+        display: flex;
+        justify-content: center;
+        align-items: unsafe;
+        padding-top: 30px;
+      }
+      .ins {
+        display: flex;
+        justify-content: center;
+        align-items: unsafe;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pete's Pizza Delivery</h1>
+    <h2>Online order form</h2>
+
+    <form>
+      <div class="center">
+      <div class="col-1">
+        <label for="username">*Name: </label>
+        <input type="text" id="username" name="username" required /> <br />
+        <label for="address">*Address: </label>
+        <input type="text" id="address" name="address" required /> <br />
+        <label for="town">*Town/city: </label>
+        <input type="text" id="town" name="town" required /> <br />
+        <label for="passcode">*Passcode: </label>
+        <input type="number" id="passcode" name="passcode" required /><br />
+      </div>
+      <div class="col-2">
+        <label for="tel">*Tel: </label>
+        <input type="tel" id="tel" name="tel" required /><br />
+        <label for="email">*Email: </label>
+        <input type="text" id="email" name="email" required /> <br />
+      </div>
+    </div>
+    <p>*required fields</p>
+    <div class="options">
+      <div class="topping">
+        <h2>Topping</h2>
+        <div class="semi-opt">
+          <input type="radio" />
+          <label for="mar">Margherita</label>
+        </div>
+        <div class="semi-opt">
+          <input type="radio" />
+          <label for="for-seasons">Four Seasons</label>
+        </div>
+        <div class="semi-opt">
+          <input type="radio" />
+          <label for="meat-feast">Meat Feast</label>
+        </div>
+      </div>
+      <div class="size">
+        <h2>Size</h2>
+        <div class="semi-opt">
+          <input type="radio" />
+          <label for="small">Small</label>
+        </div>
+        <div class="semi-opt">
+          <input type="radio" />
+          <label for="medium">Medium</label>
+        </div>
+        <div class="semi-opt">
+          <input type="radio" />
+          <label for="large">Large</label>
+        </div>
+      </div>
+      <div class="extras">
+        <h2>Extras</h2>
+        <div class="semi-opt">
+          <input type="checkbox" />
+          <label for="mushrooms">Mushrooms</label>
+        </div>
+        <div class="semi-opt">
+          <input type="checkbox" />
+          <label for="green-peppers">Green peppers</label>
+        </div>
+        <div class="semi-opt">
+          <input type="checkbox" />
+          <label for="anchovies">Anchovies</label>
+        </div>
+        <div class="semi-opt">
+          <input type="checkbox" />
+          <label for="extra-cheese">Extra cheese</label>
+        </div>
+      </div>
+    </div>
+    <div class="time">
+      <label for="time">Prefered delivery time: </label>
+      <input type="time" />
+      <br />
+    </div>
+    <div class="ins">
+      <label for="instructions">Delivery instructions: </label>
+      <textarea name="instructions" id="instructions" rows="3"></textarea>
+      <br />
+    </div>
+    <div class="btn">
+      <button type="submit">Submit Order</button>
+    </form>
+    </div>
+  </body>
+</html>
