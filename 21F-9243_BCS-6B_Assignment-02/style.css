@@ -4,6 +4,11 @@
   font-family: sans-serif;
 }
 
+h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -63,4 +68,118 @@ nav ul li {
   border-radius: 5px;
   margin: 20px;
   padding: 20px 0px 20px 0px;
+}
+
+.testimonials {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.comment {
+  margin-top: 50px;
+}
+
+.auth {
+  padding-top: 20px;
+}
+
+.cta {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.cta p {
+  padding-top: 25px;
+}
+
+.cta button {
+  border: none;
+  background: #2f9c00;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  transition: 1s;
+}
+
+.btn:hover {
+  background: #d45f00;
+}
+
+.btn {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+.three-columns {
+  margin-top: 100px;
+}
+
+.col {
+  border: 1px solid #898989;
+  padding: 30px;
+  border-radius: 2px;
+  margin: 0px 70px 0px 70px;
+}
+
+.col p {
+  padding-top: 20px;
+}
+
+.contact-form {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.contact-form h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inner-form label {
+  font-weight: bold;
+}
+
+.inner-form input {
+  width: 30vw;
+  height: 35px;
+  margin-bottom: 20px;
+}
+.inner-form textarea {
+  width: 30vw;
+  height: 80px;
+  margin-bottom: 20px;
+}
+.inner-form button {
+  width: 30%;
+  height: 45px;
+  border: none;
+  margin-right: 5px;
+  background: #2f9c00;
+  color: #ffffff;
+  font-size: 1.2rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.inner-form .btns {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  padding: 30px;
+  color: #ffffff;
+  text-align: center;
+  background: #d45f00;
 }
