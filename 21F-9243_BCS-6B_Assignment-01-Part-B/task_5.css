@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+}
+header {
+  background: #465b67;
+  padding: 30px 0px 30px 0px;
+}
+body {
+  background: #e7e7e7;
+}
+.intro-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-main img {
+  border-radius: 50%;
+}
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.intro h2,
+.intro p {
+  padding-right: 30px;
+}
+
+.intro p {
+  padding-top: 20px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.links a {
+  color: #fff;
+  padding-right: 20px;
+}
+
+.card {
+  margin: 40px 30px 40px 30px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0.2px 0.2px 5px #7c7c7c;
+  transition: 0.3s ease-in-out;
+}
+
+.card ul {
+  padding: 20px 0px 0px 30px;
+}
+
+.card ul > li {
+  padding-bottom: 5px;
+}
+
+.card:hover {
+  scale: 1.02;
+}
+
+.card p {
+  padding-top: 20px;
+}
+
+footer {
+  background: #465b67;
+  padding: 30px;
+  text-align: center;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.card h3 {
+  padding-top: 20px;
+}
+
+.icon {
+  display: none;
+}
+
+.card button {
+  border: none;
+  padding: 10px 10px 10px 10px;
+  margin-top: 20px;
+  background: #008df2;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  .icon {
+    display: inline;
+  }
+}
+
+.card img {
+  padding-top: 20px;
+}
