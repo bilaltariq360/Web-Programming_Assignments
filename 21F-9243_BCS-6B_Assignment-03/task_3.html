@@ -9,16 +9,16 @@
       rel="stylesheet"
     />
     <style>
-      body {
+      /* body {
         background: url("./background.png");
         background-position: center;
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: cover;
         background-blend-mode: multiply;
-        background-color: rgba(0, 0, 0, 0.524);
+        background-color: rgba(0, 0, 0, 0.759);
         color: #ffffff;
-      }
+      } */
     </style>
   </head>
   <body>
@@ -57,20 +57,85 @@
         </div>
       </div>
     </nav>
-
     <div class="container mt-4">
+        <div class="container bg-light rounded-4 pt-1 pb-5 mt-5 p-5">
       <section id="about">
-        <h2>About Us</h2>
-        <p>This is the about us section.</p>
+        <h2 style="font-size: 4rem; font-weight: bolder">About Us</h2>
+        <div class="row">
+          <div class="col-8" style="line-height: 1.5rem">
+            Welcome to ArtPro, your premier destination for exquisite art pieces
+            that inspire and captivate. At ArtPro, we are passionate about
+            celebrating creativity and bringing exceptional artwork into your
+            life. Our curated collection showcases a diverse range of styles,
+            from contemporary to traditional, ensuring there's something for
+            every art enthusiast. Whether you're looking to adorn your living
+            space with a stunning painting, add character to your office with a
+            unique sculpture, or gift a loved one a timeless piece of art,
+            ArtPro has you covered. Explore our gallery and elevate your
+            surroundings with the beauty of art from ArtPro.
+          </div>
+          <div class="col-4 float-end">
+            <img class="img-fluid bottom-img" src="mon.png" width="50%" />
+          </div>
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="container bg-light rounded-4 pt-1 pb-5 mt-5 p-5">
+        <div class="row mt-5">
+          <div class="col-4 float-end">
+            <img class="img-fluid bottom-img" src="str.jpg" width="70%" />
+          </div>
+           <div class="col-8" style="line-height: 1.5rem">
+            Welcome to ArtPro, your premier destination for exquisite art pieces
+            that inspire and captivate. At ArtPro, we are passionate about
+            celebrating creativity and bringing exceptional artwork into your
+            life. Our curated collection showcases a diverse range of styles,
+            from contemporary to traditional, ensuring there's something for
+            every art enthusiast. Whether you're looking to adorn your living
+            space with a stunning painting, add character to your office with a
+            unique sculpture, or gift a loved one a timeless piece of art,
+            ArtPro has you covered. Explore our gallery and elevate your
+            surroundings with the beauty of art from ArtPro. Welcome to ArtPro,
+            your premier destination for exquisite art pieces that inspire and
+            captivate. At ArtPro, we are passionate about celebrating creativity
+            and bringing exceptional artwork into your life. Our curated
+            collection showcases a diverse range of styles, from contemporary to
+            traditional, ensuring there's something for every art enthusiast.
+            Whether you're looking to adorn your living space with a stunning
+            painting, add character to your office with a unique sculpture, or
+            gift a loved one a timeless piece of art, ArtPro has you covered.
+            Explore our gallery and elevate your surroundings with the beauty of
+            art from ArtPro.
+          </div>
+          </div>
+        </div>
       </section>
       <section id="services" class="mt-4">
-        <h2>Services</h2>
-        <p>Our services include...</p>
+        
+        <div class="alert alert-primary" role="alert">
+          <h2 class="alert-heading">Services</h2>
+          
+            
+            <p>At ArtPro, we offer a range of services to cater to your art needs:</p>
+  <ul>
+    <li>Art Consultation: Our expert consultants can help you find the perfect piece for your space.</li>
+    <li>Custom Artwork: Commission a unique piece tailored to your preferences and style.</li>
+    <li>Art Restoration: Restore and preserve your valuable artwork with our restoration services.</li>
+    <li>Art Events: Join us for art exhibitions, workshops, and other events to immerse yourself in the art world.</li>
+  </ul>
+          </p>
+          <hr />
+          <p class="mb-0">
+  Feel free to contact us with any questions, inquiries, or requests for assistance. Our dedicated team is here to help you explore our services, find the perfect artwork, or address any other art-related needs you may have. We look forward to hearing from you and assisting you on your artistic journey.
+</p>
+
+        </div>
       </section>
       <section id="contact" class="mt-4">
         <h2>Contact Us</h2>
 
-        <form>
+        <form style="width: 50%">
           <div class="mb-3">
             <label for="name" class="form-label">Name:</label>
             <input type="text" class="form-control" id="name" required />
@@ -88,7 +153,9 @@
               required
             ></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn btn-primary" style="width: 100%">
+            Submit
+          </button>
         </form>
       </section>
     </div>
